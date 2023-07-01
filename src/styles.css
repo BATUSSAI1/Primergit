@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.users {
+  background-color: rgb(91, 41, 41);
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 3rem;
+}
+
+.tarjeta {
+  background-color: rgb(69, 69, 130);
+  height: 280px;
+  flex-grow: 1;
+  flex-basis: calc(33% - 1rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
+
+.tarjeta h2 {
+  align-self: flex-start;
+  padding: 1rem;
+}
+
+ul{
+	padding: 0.8rem;
+}
